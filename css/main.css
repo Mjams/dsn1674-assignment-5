@@ -110,11 +110,39 @@ h2{
 
 .corn{
   width: 100%;
+  margin: 0;
 }
 
-figcaption{
+.fig{
   background-color: #dc8252;
   color: white;
   text-align: center;
-  text-decoration: italic;
+  font-style: italic;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.rice{
+  float: left;
+  width: 50%;
+}
+
+.newfig{
+  background-color: #dc8252;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding: 0.5em;
+  margin: 0;
+  float: left;
+  width: 50%;
+}
+
+.peanuts{
+
+}
+h3{
+  float: left;
+  text-align: center;
+  width: 100%;
 }
