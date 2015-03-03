@@ -7,7 +7,7 @@ light orange on footer: #e0a998
 */
 html {
   box-sizing: border-box;
-  font: font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
 
 *, *::before, *::after {
@@ -51,20 +51,15 @@ nav ol{
   padding: 0em;
 }
 
-nav{
-  float: center;
-}
-
 nav li{
   float: left;
   width: 33.33%;
-  bac
 }
 
 nav a{
   color: white;
   text-decoration: none;
-  font: font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
   padding: 0.5em;
   margin: 0;
   font-size: 1.5rem;
@@ -145,4 +140,33 @@ h3{
   float: left;
   text-align: center;
   width: 100%;
+  padding-top: 1em;
+}
+
+.peanuts{
+  float: left;
+  width: 25%;
+  margin: 0.5em;
+}
+
+.beans{
+  float: left;
+  width: 25%;
+  margin: 0.5em;
+}
+
+.lentils{
+  float: left;
+  width: 25%;
+  margin: 0.5em;
+}
+
+.captions{
+  float: left;
+  width: 70.5%;
+}
+
+.footer{
+  background: #dc8252;
+  display: block;
 }
