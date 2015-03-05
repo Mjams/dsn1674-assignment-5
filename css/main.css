@@ -17,6 +17,7 @@ html {
 body{
   margin: 0;
 }
+
 header{
   background-color:#d05c2e;
   margin: 0;
@@ -28,7 +29,7 @@ h1{
   margin:0;
   text-align: center;
   display: block;
-  padding-top: 2rem;
+  padding: 2rem;
 }
 
 .left{
@@ -61,7 +62,6 @@ nav a{
   text-decoration: none;
   font-family: 'Lora', serif;
   padding: 0.5em;
-  margin: 0;
   font-size: 1.5rem;
   border: 1px solid #a93f35;
   display: block;
@@ -80,7 +80,6 @@ nav ol{
   width: 35%;
   margin: 0.5em;
 }
-
 .cereals{
   float: right;
   width: 35%;
@@ -101,7 +100,10 @@ h2{
   color: white;
   margin: 0;
   padding: 1em;
+  display: inline-block;
+  width: 100%;
 }
+
 
 .corn{
   width: 100%;
@@ -145,28 +147,59 @@ h3{
 
 .peanuts{
   float: left;
-  width: 25%;
-  margin: 0.5em;
+  width:30%;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #cccccc;
 }
 
 .beans{
   float: left;
-  width: 25%;
-  margin: 0.5em;
+  width: 30%;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  clear: left;
+  border: 1px solid #cccccc;
 }
 
 .lentils{
   float: left;
-  width: 25%;
-  margin: 0.5em;
+  width: 30%;
+  clear: left;
+  border: 1px solid #cccccc;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
-.captions{
-  float: left;
-  width: 70.5%;
-}
-
-.footer{
+footer{
   background: #dc8252;
   display: block;
+  padding: 1em;
+  clear:left;
+  margin: 0;
+  text-align: center;
+  color: #e0a998;
+
+
+}
+
+em{
+  font-style: italic;
+  font-weight: bold;
+}
+
+div{
+  overflow: hidden;
+  clear: both;
+  background-color: #dc8252;
+}
+
+ul li{
+  clear: both;
+  margin-left: 0.5em;
+  list-style-type: none;
+}
+
+ul{
+  padding: 0;
 }
